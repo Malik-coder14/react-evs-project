@@ -3,11 +3,10 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-        <br></br>
+        <hr></hr>
       {/* Hero Section */}
-      <section className="bg-primary text-white text-center py-5">
+      <section className="bg-primary text-white text-center py-5 ">
         <div className="container">
-          
           <h1 className="display-4 fw-bold">Welcome to Our Website</h1>
           <p className="lead">Discover quality, trust, and performance in every click.</p>
           <a href="/products" className="btn btn-light btn-lg mt-3">Explore Products</a>

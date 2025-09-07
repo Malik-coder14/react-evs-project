@@ -14,7 +14,7 @@ import Test from "./components/Test";
             
             <Header/>
         
-            <div className = "container">
+            <div >
                  <Routes>
                 <Route path= "/" element = {<Home/>}/>
                 <Route path= "/about" element = {<About/>}/>
@@ -22,7 +22,7 @@ import Test from "./components/Test";
                 <Route path= "/contact" element = {<Contact/>}/>
                 <Route path = "/test" element = {<Test/>} />
                 
-           </Routes>   
+                </Routes>   
             </div>         
           
 
