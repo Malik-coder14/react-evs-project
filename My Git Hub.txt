@@ -1,0 +1,180 @@
+www.github.com
+
+Email = malik.eng5@gmail.com
+Username = Malikcoder-14
+
+Password = programmer@14
+
+My FSWD Repository =
+
+My Repository link :
+
+
+		We Can clone our project with git hub repository by Three Methods.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	First Method :  By creating a physical cloned folder into our project folder
+			and copy past all project files into that cloned folder and run push command
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+1 = 	Create GitHub account
+2 =  	Create a repository in that account. 
+	
+	Important : create new repository on project name i.e PHP Laravel EVS System Project......
+	so that can be easily readable as according to languages used and project name .
+
+3 = 	Now come to your computer create a clone of your repository. 
+		
+
+4 =  	To Take clone/copy of new repository of GitHub on our machine , We need a git software we will download a git software and install it .
+    	     	     This software will help us to open git bash (A git hub special terminal/command prompt) into our folder which we want to push online on GitHub.
+
+5 = 	Then we will copy the http// link of that repository . 
+	
+6 =  	Come into the folder whose data you want to push, and right click, open gitbash here , git terminal opened. Type following command.
+
+		$ git clone " Repository Path "
+		
+7 =  	A cloned folder will be created in the same folder whose data you want to push on repository.
+
+			
+	NOW YOU ARE READY TO PUSH/UPLOAD/COPY YOUR DAILY WORK ON GIT HUB .
+
+8 = 	YOU DONT NEED TO CREATE REPOSITORY DAILY AND DONT NEED TO TAKE CLONE DAILY .
+			THE ABOVE THREE STEPS ARE TAKEN ONLY ONCE.
+
+			TO COPY/PUSH/UPLOAD  YOUR WORK DAILY ON GIT HUB 
+
+9 =  	Now we will open this cloned folder of our GitHub repository and create a test.txt file.
+
+10 = 	Into the same cloned folder , now we right click and select git bash here. git software terminal will be opened.
+
+11 = 	We will enter command  
+		git add .(dot is must). // This will add this location into GitHub.
+	
+12= 	Now we give command , 
+	
+	git commit -m "testing"     // This will test our connection to the folder with git software with online
+					GitHub repository, and tell us how many new files are there needed to be
+					upload/push online to GitHub.
+
+10 = 	Some time after testing command , git software will ask our identification.
+     	so we enter following commands.
+	
+	 TO Author identity
+
+	$ git config --global user.email 'malik.eng5@gmial.com'
+
+	$ git config --global user.name 'Malikcoder-14'
+
+11 = 	After Authorizing identification, now we can again run git commit -m "testing" command.
+
+12 = 	Now we will give , push command.
+
+	git push    // This will upload / push all the new files crated in cloned folder onto our online GitHub 
+			repository.
+
+
+Then we copy and paste all our new data that we want to upload on GitHub, into this cloned folder "Cloned folder will have same name as 
+our GitHub repository on GitHub.
+
+13 =  Now open this cloned folder and copy past all your project into this cloned folder
+
+..................................
+
+TO DELETE A FOLDER FROM GITHUB 
+
+// git rm -r foldername
+//
+
+2 = TO Author identity
+
+$ git config --global user.email 'malik.eng5@gmial.com'
+
+$ git config --global user.name 'Malikcoder-14'
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	Second Method : To Export /Upload Push our project that we built on local machine on to GitHub repository.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1 = Create a new project into vs.code and and open that project into vs.code.
+
+2 = Open terminal into vs.code.
+
+3 = To check the files into our projects folder give command in terminal la -a.
+	ls - a command will show us files present in our project folder. we will notice
+	that there is no .git folder in this project, which means this project is not a git folder.
+	to make it a git folder we write following git init command.
+
+4 = write command git init .
+	This command is used to make a new project folder a git folder.
+	we use ls -a command in terminal , to check how many files are there in this project folder.
+	we we give -a command it will show us 
+	This command is used to create a new GitHub repository on git hub, for this new project.
+	This will create a link of our project with git software installed on our machine.
+
+5  = Write command git add .
+	This command will add all new changes we done in project to git.
+6 =  Write command git status
+	This command tell us status of project that if no changes made, this command will 
+	show us message "Nothing to commit , Work tree clean"
+	if we did any change in our project than , This command will show us status of new files that need to be push on git hub.
+
+7 = Write command git commit -m "Changes name, what has changed"
+	This command will commit/ collect all changes and message will
+	be shown in our git hub that what changes are made in this 	commit on a particular date.
+
+8 =  Write git status command
+	This command will show us status on terminal that Nothing to 
+	commit, every new changes has been committed/collected by git.
+
+9  =  Now we will go to GitHub and create a new repository, for this 
+	new project with a specific name that we want.
+
+10 = git remote add origin <link>
+
+11 = git remote -v
+
+12 = write command, git branch (To check branch) (Every team of coder 	will work in its own branch)
+	Branch work like tree. Suppose in a big organization, 	different teams are working on 	project, every team will take 	a copy of project from main stem project, and every team will 	create its own branch, after alteration every team will upload 	its work , on its own branch.
+	Then project manager will check all branches code and he will 	finally decide if this branch code is correct , and project 	manager will add every code of each branch into main permanent 	project code.
+......................
+	normally when we write command git branch , it show us branch name where we are working right now. normally we are in master branch , but we can create a new branch or change the name of a branch from master to main .
+...........
+because Now GitHub has change branch convention from master to main.
+
+13 = git branch -m main   (To rename branch)
+
+14 = git push origin main.
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+	Method Three : To Import project from GitHub repository into our Local machine
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+1 = Clone : Cloning a repository on our local machine 
+		git clone <- some link ->
+
+2 = Status : displays the status of the code/files.
+		git status 
+
+3 =  add .  adds new or changed files in your working directory to the        
+     Git staging area. 
+		git add <- file name ->
+		or 
+	we can do add . which means add all files to git,
+		git add . 
+
+4 = commit = it is the record of change.
+		git commit -m " Some message about Project / Changes " 
+5 = push = To send our project files/folders to online GitHub, 	repository.
+		git push origin master or (main) (some time master is 		named as main)
+		Here origin is repository and master is its branch.
+		or 
+	
+	in order to avoid writing origin master every time, we once
+	write -u flag, in command ..... git push -u origin master
+
+	Now next time if we want to push we only write
+		git push 
